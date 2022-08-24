@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_company_or_segment" label="Company Or Segment" language="en" table="var__m_sys_decision_input_953a2f9a1bcbc5908c5143f3cc4bcb0c">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_company_or_segment</element>
+            <help/>
+            <hint/>
+            <label>Company Or Segment</label>
+            <language>en</language>
+            <name>var__m_sys_decision_input_953a2f9a1bcbc5908c5143f3cc4bcb0c</name>
+            <plural>Company Or Segment</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Terry.Lillo</sys_created_by>
+            <sys_created_on>2022-04-26 15:41:55</sys_created_on>
+            <sys_id>566a2b1e1bcbc5908c5143f3cc4bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Company Or Segment</sys_name>
+            <sys_package display_value="Company Segment Spoke" source="006947561b4bc5908c5143f3cc4bcb63">006947561b4bc5908c5143f3cc4bcb63</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Company Segment Spoke">006947561b4bc5908c5143f3cc4bcb63</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_decision_input_953a2f9a1bcbc5908c5143f3cc4bcb0c_u_company_or_segment_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-04-26 15:41:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

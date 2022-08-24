@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_sectors" label="Sectors" language="en" table="core_company">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sectors</element>
+            <help/>
+            <hint/>
+            <label>Sectors</label>
+            <language>en</language>
+            <name>core_company</name>
+            <plural>Sectors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
+            <sys_created_on>2020-09-22 21:46:15</sys_created_on>
+            <sys_id>661a742f1b139c10e7004229bc4bcb1a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Sectors</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Company Segment Spoke">006947561b4bc5908c5143f3cc4bcb63</sys_scope>
+            <sys_update_name>sys_documentation_core_company_u_sectors_en</sys_update_name>
+            <sys_updated_by>Terry.Lillo</sys_updated_by>
+            <sys_updated_on>2022-04-26 15:07:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Company Segment Spoke">006947561b4bc5908c5143f3cc4bcb63</claim_owner_scope>
+        <claim_timestamp>1806669d99c0000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_core_company_u_sectors_en</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Company Segment Spoke</previous_claim_name>
+        <previous_claim_scope>006947561b4bc5908c5143f3cc4bcb63</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-26 15:07:34</sys_created_on>
+        <sys_id>5782e3921bcbc5908c5143f3cc4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-26 15:07:34</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Company Segment Spoke">006947561b4bc5908c5143f3cc4bcb63</claim_owner_scope>
+        <claim_timestamp>180004e5dc70000001</claim_timestamp>
+        <metadata_update_name>sys_documentation_core_company_u_sectors_en</metadata_update_name>
+        <previous_claim_app_version>1.0.3</previous_claim_app_version>
+        <previous_claim_name>CDW Ordering Integration</previous_claim_name>
+        <previous_claim_scope>4630a8861ba9851062e50ed2cd4bcb61</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-26 15:07:34</sys_created_on>
+        <sys_id>1b82e3921bcbc5908c5143f3cc4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-26 15:07:34</sys_updated_on>
+    </sys_claim>
+</record_update>

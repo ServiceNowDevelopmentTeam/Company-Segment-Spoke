@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>Sector to Segment</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[//Enable sectors field
+var dictionaryGr = new GlideRecord('sys_dictionary');
+dictionaryGr.get('6b0a342f1b139c10e7004229bc4bcb3f');//Sectors field
+dictionaryGr.setValue('active','false');
+dictionaryGr.update();
+
+//If segment is blank and sectors is not then set segment to be equal to sectors
+var companyGr = new GlideRecord('core_company');
+companyGr.query();
+while(companyGr.next()){
+	if(gs.nil(companyGr.getValue('u_segment')) && !gs.nil(companyGr.getValue('u_sectors'))){
+		companyGr.setValue('u_segment',companyGr.u_sectors);
+		companyGr.update();
+	}
+}
+
+//Disable sectors field
+dictionaryGr = new GlideRecord('sys_dictionary');
+dictionaryGr.get('6b0a342f1b139c10e7004229bc4bcb3f');//Sectors field
+dictionaryGr.setValue('active','false');
+dictionaryGr.update();]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-06 19:24:13</sys_created_on>
+        <sys_id>810d954c1bfac91062e50ed2cd4bcbea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Sector to Segment</sys_name>
+        <sys_package display_value="CDW Ordering Integration" source="4630a8861ba9851062e50ed2cd4bcb61">4630a8861ba9851062e50ed2cd4bcb61</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Company Segment Spoke">006947561b4bc5908c5143f3cc4bcb63</sys_scope>
+        <sys_update_name>sys_script_fix_810d954c1bfac91062e50ed2cd4bcbea</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-26 15:08:01</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Company Segment Spoke">006947561b4bc5908c5143f3cc4bcb63</claim_owner_scope>
+        <claim_timestamp>180666a40890000001</claim_timestamp>
+        <metadata_update_name>sys_script_fix_810d954c1bfac91062e50ed2cd4bcbea</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Company Segment Spoke</previous_claim_name>
+        <previous_claim_scope>006947561b4bc5908c5143f3cc4bcb63</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-26 15:08:01</sys_created_on>
+        <sys_id>29a2a7921bcbc5908c5143f3cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-26 15:08:01</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Company Segment Spoke">006947561b4bc5908c5143f3cc4bcb63</claim_owner_scope>
+        <claim_timestamp>180666a40840000001</claim_timestamp>
+        <metadata_update_name>sys_script_fix_810d954c1bfac91062e50ed2cd4bcbea</metadata_update_name>
+        <previous_claim_app_version>1.0.3</previous_claim_app_version>
+        <previous_claim_name>CDW Ordering Integration</previous_claim_name>
+        <previous_claim_scope>4630a8861ba9851062e50ed2cd4bcb61</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-26 15:08:01</sys_created_on>
+        <sys_id>e9a2a7921bcbc5908c5143f3cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-26 15:08:01</sys_updated_on>
+    </sys_claim>
+</record_update>
