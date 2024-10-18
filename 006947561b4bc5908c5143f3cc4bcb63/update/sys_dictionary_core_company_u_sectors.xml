@@ -2,8 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_sectors" table="core_company">
         <active>false</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -30,6 +29,7 @@
         <element>u_sectors</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">glide_list</internal_type>
@@ -49,14 +49,11 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
-        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>kirolos.iskander@cdw.com</sys_created_by>
         <sys_created_on>2020-09-22 21:46:15</sys_created_on>
-        <sys_id>6b0a342f1b139c10e7004229bc4bcb3f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
         <sys_name>Sectors</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
@@ -71,6 +68,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

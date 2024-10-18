@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>Terry.Lillo</sys_created_by>
             <sys_created_on>2022-04-06 19:15:00</sys_created_on>
-            <sys_id>6c6b1d081bfac91062e50ed2cd4bcb85</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Segment</sys_name>
             <sys_package display_value="CDW Ordering Integration" source="4630a8861ba9851062e50ed2cd4bcb61">4630a8861ba9851062e50ed2cd4bcb61</sys_package>
@@ -24,32 +23,4 @@
             <url_target/>
         </sys_documentation>
     </sys_documentation>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="Company Segment Spoke">006947561b4bc5908c5143f3cc4bcb63</claim_owner_scope>
-        <claim_timestamp>1806629c1be0000001</claim_timestamp>
-        <metadata_update_name>sys_documentation_core_company_u_segment_en</metadata_update_name>
-        <previous_claim_app_version>1.0.0</previous_claim_app_version>
-        <previous_claim_name>Company Segment Spoke</previous_claim_name>
-        <previous_claim_scope>006947561b4bc5908c5143f3cc4bcb63</previous_claim_scope>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-04-26 13:57:34</sys_created_on>
-        <sys_id>f1825bde1b4bc5908c5143f3cc4bcbb7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-26 13:57:34</sys_updated_on>
-    </sys_claim>
-    <sys_claim action="INSERT_OR_UPDATE">
-        <claim_owner_scope display_value="Company Segment Spoke">006947561b4bc5908c5143f3cc4bcb63</claim_owner_scope>
-        <claim_timestamp>180004e49120000001</claim_timestamp>
-        <metadata_update_name>sys_documentation_core_company_u_segment_en</metadata_update_name>
-        <previous_claim_app_version>1.0.3</previous_claim_app_version>
-        <previous_claim_name>CDW Ordering Integration</previous_claim_name>
-        <previous_claim_scope>4630a8861ba9851062e50ed2cd4bcb61</previous_claim_scope>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-04-26 13:57:34</sys_created_on>
-        <sys_id>b5825bde1b4bc5908c5143f3cc4bcbb7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-26 13:57:34</sys_updated_on>
-    </sys_claim>
 </record_update>

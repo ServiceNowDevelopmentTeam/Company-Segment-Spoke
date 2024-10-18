@@ -2,13 +2,14 @@
     <sys_decision_question action="INSERT_OR_UPDATE">
         <active>true</active>
         <answer decision_table.answer_table="sys_user_group" name="AG_Segment-SpecialtyServices">7d7975531b4b50d0f5a3635bbc4bcb29</answer>
-        <condition table="var__m_sys_decision_input_953a2f9a1bcbc5908c5143f3cc4bcb0c">u_company_or_segment=1df7fca71b139c10e7004229bc4bcb3d^EQ<item display_table="core_company" display_value="Industrial Services" endquery="false" field="u_company_or_segment" goto="false" newquery="false" operator="=" or="false" value="1df7fca71b139c10e7004229bc4bcb3d"/>
+        <condition table="var__m_sys_decision_input_953a2f9a1bcbc5908c5143f3cc4bcb0c">u_company_or_segment=1df7fca71b139c10e7004229bc4bcb3d^EQ<item endquery="false" field="u_company_or_segment" goto="false" newquery="false" operator="=" or="false" value="1df7fca71b139c10e7004229bc4bcb3d"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <decision_table display_value="Segment - Default Company/Segment Assignment Groups">953a2f9a1bcbc5908c5143f3cc4bcb0c</decision_table>
         <default_answer>false</default_answer>
         <input_table>var__m_sys_decision_input_953a2f9a1bcbc5908c5143f3cc4bcb0c</input_table>
         <label>Segment - Default Company/Segment Assignment Groups_300</label>
+        <marked_for_deletion>false</marked_for_deletion>
         <order>300</order>
         <sys_class_name>sys_decision_question</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
